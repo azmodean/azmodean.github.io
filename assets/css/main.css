@@ -70,36 +70,42 @@
 	#videoModal {
 	  border-radius: 0;
 	  width: 870px;
-	  margin:auto;}
-	  #videoModal .modal-header {
-	    /*background: #000;*/
-	    border: 0;
-	    color: #fff;
-	    position: relative;
-			  height:235px; }
-	    #videoModal .modal-header h3 {
-	      font-size: 18px;
-	      line-height: 22px;
-		  font-family:Arial, Helvetica, sans-serif;
-		  padding:5px;}
-	  #videoModal .modal-body {
-	    height: 489px;
-	    padding: 0;
-	    max-height: none;
-	    overflow: hidden; }
-	  #videoModal .modal-footer:empty {
-	    display: none !important; }
-	  #videoModal .close {
-	    background: #DB00B8;
-	    color: #fff;
-	    font-size: 24px;
-	    margin: 0;
-	    opacity: 1;
-	    position: relative;
-	    right: 0;
-	    text-shadow: none;
-	    top: 0;
-	    width: 38px; }
+	  margin:auto;
+	}
+  #videoModal .modal-header {
+    /*background: #000;*/
+    border: 0;
+    color: #fff;
+    position: relative;
+		height:145px;
+		}
+    #videoModal .modal-header h23 {
+      font-size: 18px;
+      line-height: 22px;
+	  font-family:Arial, Helvetica, sans-serif;
+	  padding:5px;
+	}
+  #videoModal .modal-body {
+    height: 489px;
+    padding: 0;
+    max-height: 489px;
+    overflow: hidden;
+	}
+  #videoModal .modal-footer:empty {
+    display: none !important;
+	}
+  #videoModal .close {
+    background: #DB00B8;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    opacity: 1;
+    position: relative;
+    right: 0;
+    text-shadow: none;
+    top: 0;
+    width: 38px;
+	}
 
 
 /* Box Model */
@@ -119,6 +125,16 @@
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+#parent {
+	position:relative;
+}
+#child {
+	position:absolute;
+	bottom: 10%;
+	margin: auto;
+	width: 100%;
 }
 
 /* Grid */
