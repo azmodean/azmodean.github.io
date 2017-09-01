@@ -132,7 +132,7 @@
 }
 #child {
 	position:absolute;
-	bottom: 10%;
+	bottom: 100px;
 	margin: auto;
 	width: 100%;
 }
